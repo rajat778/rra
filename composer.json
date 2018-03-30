@@ -8,16 +8,8 @@
     "vendor-dir": "src/backend-libs"
  
   
-  }
-		"post-install-cmd": [
-			"php -r \"chmod( __DIR__ . 'php-imap/php-imap', 0777);\"",
-			"php -r \"chmod( __DIR__ . 'gnugat/PronounceableWord', 0777);\"",
-			"php -r \"chmod( __DIR__ . 'ezyang/htmlpurifier', 0777);\""
+  
 		
-    ]
-	}
-  
-  
   }
 
 
